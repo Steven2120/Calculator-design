@@ -1,0 +1,96 @@
+body {
+  background-color: #293342;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  height: 100vh;
+}
+
+#calculator {
+  background-color: #e0fbfc;
+  height: 60%;
+  width: 30%;
+  border-radius: 10%;
+}
+
+#calculator-screen {
+  height: 17%;
+  width: 82%;
+  background-color: #293342;
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 7%;
+}
+
+#calculator-buttons-grandparent {
+  height: 80%;
+  width: 90%;
+  margin: auto;
+  margin-top: -5%;
+  padding-top: 5%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.calculator-buttons-parents-1 {
+  height: 80%;
+  width: 20%;
+  justify-content: space-evenly;
+}
+
+.calculator-buttons-parents-2 {
+  height: 80%;
+  width: 20%;
+}
+
+.calculator-buttons-parents-3 {
+  height: 80%;
+  width: 20%;
+}
+
+.calculator-buttons-parents-4 {
+  height: 80%;
+  width: 20%;
+}
+
+.calculator-buttons {
+  height: 15%;
+  width: 100%;
+  margin-top: 15%;
+  background-color: #97c1d9;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#big-equal-button {
+  height: 69%;
+  width: 100%;
+  background-color: #ee6c4d;
+  margin-top: 15%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-4-buttons {
+  background-color: #3d5a80;
+}
+
+.button-sign {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+}
