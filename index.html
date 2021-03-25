@@ -11,35 +11,38 @@
 <body>
     <div id="container">
         <div id="calculator">
-            <div id="calculator-screen"></div>
+            <div id="calculator-screen">
+                <h2 id="screen-digits"></h2>
+            </div>
             <div id="calculator-buttons-grandparent">
                 <div class="calculator-buttons-parents-1">
-                    <div class="calculator-buttons button top-4-buttons"><button class="button-sign">+</button></div>
-                    <div class="calculator-buttons"><button class="button-sign">7</button></div>
-                    <div class="calculator-buttons"><button class="button-sign">4</button></div>
-                    <div class="calculator-buttons"><button class="button-sign">1</button></div>
-                    <div class="calculator-buttons"><button class="button-sign">0</button></div>
+                    <div class="calculator-buttons operators add top-4-buttons">+</div>
+                    <div class="calculator-buttons nums">7</div>
+                    <div class="calculator-buttons nums">4</div>
+                    <div class="calculator-buttons nums">1</div>
+                    <div class="calculator-buttons nums">0</div>
                 </div>
                 <div class="calculator-buttons-parents-2">
-                    <div class="calculator-buttons minus top-4-buttons"><button class="button-sign">-</button></div>
-                    <div class="calculator-buttons"><button class="button-sign">8</button></div>
-                    <div class="calculator-buttons"><button class="button-sign">5</button></div>
-                    <div class="calculator-buttons"><button class="button-sign">2</button></div>
-                    <div class="calculator-buttons"><button class="button-sign">.</button></div>
+                    <div class="calculator-buttons operators minus top-4-buttons">-</div>
+                    <div class="calculator-buttons nums">8</div>
+                    <div class="calculator-buttons nums">5</div>
+                    <div class="calculator-buttons nums">2</div>
+                    <div class="calculator-buttons nums">.</div>
                 </div>
                 <div class="calculator-buttons-parents-3">   
-                    <div class="calculator-buttons multiplication top-4-buttons"><button class="button-sign">x</button></div>
-                    <div class="calculator-buttons"><button class="button-sign">9</button></div>
-                    <div class="calculator-buttons"><button class="button-sign">6</button></div>
-                    <div class="calculator-buttons"><button class="button-sign">3</button></div>
-                    <div class="calculator-buttons"><button class="button-sign">C</button></div>
+                    <div class="calculator-buttons operators multiplication top-4-buttons" data-number="*">*</div>
+                    <div class="calculator-buttons nums">9</div>
+                    <div class="calculator-buttons nums">6</div>
+                    <div class="calculator-buttons nums">3</div>
+                    <div class="calculator-buttons clear">C</div>
                 </div>
                 <div class="calculator-buttons-parents-4">
-                    <div class="calculator-buttons division top-4-buttons"><button class="button-sign">%</button></div>
-                    <div id="big-equal-button"><button class="button-sign">=</button></div>
+                    <div class="calculator-buttons operators division top-4-buttons" data-number="/">/</div>
+                    <div id="big-equal-button">=</div>
                 </div>
             </div>    
         </div>
     </div>
+    <script src="main.js"></script>
 </body>
 </html>
